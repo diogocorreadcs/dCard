@@ -1,4 +1,4 @@
-### ⚙️ Variáveis de Ambiente Principais
+### Variáveis de Ambiente Principais
 
 O dCard é controlado inteiramente pelas variáveis configuradas no seu arquivo `.env.local`:
 
