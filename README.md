@@ -40,7 +40,7 @@ O **dCard** é uma plataforma de cartão de visita digital profissional, moderna
 
 ---
 
-### 🚀 Instalação e Execução
+### Instalação e Execução
 
 Siga os passos abaixo para configurar e executar o projeto em seu ambiente local:
 
@@ -76,7 +76,7 @@ docker-compose up --build -d
 
 ---
 
-### ⚙️ Variáveis de Ambiente Principais
+### Variáveis de Ambiente Principais
 
 O dCard é controlado inteiramente pelas variáveis configuradas no seu arquivo `.env.local`:
 
@@ -95,7 +95,7 @@ O dCard é controlado inteiramente pelas variáveis configuradas no seu arquivo 
 
 ---
 
-### 🤝 Contribuição e Licença
+### Contribuição e Licença
 
 Este é um projeto **Open Source** distribuído sob a licença **MIT**. 
 
