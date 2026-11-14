@@ -18,7 +18,7 @@
     dCard
   </text>
 
-  <line x1="540" y1="115" x2="660" y2="115" stroke="#6366f1" stroke-width="2" stroke-linecap="round" />
+  <line x1="540" y1="115" x2="660" y2="115" stroke="#737373" stroke-width="2" stroke-linecap="round" />
 
   <text x="50%" y="148" text-anchor="middle" fill="#a3a3a3" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" letter-spacing="4">
     DIGITAL BUSINESS CARD PLATFORM
