@@ -40,9 +40,67 @@ O **dCard** é uma plataforma de cartão de visita digital profissional, moderna
 
 ---
 
-### Configuração e Instalação
+### 🚀 Instalação e Execução
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/diogocorreadcs/dCard.git](https://github.com/diogocorreadcs/dCard.git)
-   cd dCard
+Siga os passos abaixo para configurar e executar o projeto em seu ambiente local:
+
+#### 1. Clonar o Repositório
+```bash
+git clone https://github.com/diogocorreadcs/dCard.git
+cd dCard
+```
+
+#### 2. Instalar as Dependências
+```bash
+npm install
+```
+
+#### 3. Configurar as Variáveis de Ambiente
+Escolha um perfil na pasta `envs/` ou copie o modelo padrão para a raiz como `.env.local`:
+```bash
+cp envs/.env.full .env.local
+```
+*(Lembre-se de editar o arquivo `.env.local` com as suas informações pessoais).*
+
+#### 4. Iniciar o Servidor de Desenvolvimento
+```bash
+npm run dev
+```
+O projeto estará acessível em `http://localhost:3000`.
+
+#### 5. Executando via Docker (Opcional)
+Se preferir rodar utilizando containers:
+```bash
+docker-compose up --build -d
+```
+
+---
+
+### ⚙️ Variáveis de Ambiente Principais
+
+O dCard é controlado inteiramente pelas variáveis configuradas no seu arquivo `.env.local`:
+
+| Variável | Descrição |
+| :--- | :--- |
+| `NEXT_PUBLIC_CARD_NAME` | Seu nome completo ou de exibição |
+| `NEXT_PUBLIC_CARD_ROLE` | Cargo ou profissão principal |
+| `NEXT_PUBLIC_CARD_COMPANY` | Empresa ou organização atual |
+| `NEXT_PUBLIC_CARD_BIO` | Descrição biográfica profissional |
+| `NEXT_PUBLIC_CARD_LOCATION` | Localização geográfica (Cidade/País) |
+| `NEXT_PUBLIC_CARD_PHONE` | Número para contato direto / WhatsApp |
+| `NEXT_PUBLIC_CARD_EMAIL` | E-mail profissional principal |
+| `NEXT_PUBLIC_CARD_SPOTIFY_URL` | Link do Spotify para o widget integrado |
+| `NEXT_PUBLIC_CARD_PROJECTS` | Lista de projetos em formato JSON |
+| `NEXT_PUBLIC_CARD_LINKS` | Lista de redes sociais em formato JSON |
+
+---
+
+### 🤝 Contribuição e Licença
+
+Este é um projeto **Open Source** distribuído sob a licença **MIT**. 
+
+Sinta-se à vontade para:
+- Abrir *issues* para relatar bugs ou sugerir melhorias.
+- Enviar *Pull Requests* com novas funcionalidades, correções ou otimizações.
+
+Sua contribuição é sempre muito bem-vinda!
