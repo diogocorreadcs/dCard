@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="assets/banner.svg" alt="dCard Banner" width="100%" />
+</p>
 
-## Getting Started
+<p align="center">
+  <a href="https://github.com/diogocorreadcs/dCard" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
+  </a>
+  <a href="https://nextjs.org" target="_blank">
+    <img src="https://img.shields.io/badge/Next.js-181717?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  </a>
+  <a href="https://tailwindcss.com" target="_blank">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-181717?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+  </a>
+  <a href="https://www.typescriptlang.org" target="_blank">
+    <img src="https://img.shields.io/badge/TypeScript-181717?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  </a>
+  <a href="https://www.docker.com" target="_blank">
+    <img src="https://img.shields.io/badge/Docker-181717?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  </a>
+  <a href="LICENSE" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-181717?style=for-the-badge" alt="License"/>
+  </a>
+</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Sobre o Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O **dCard** é uma plataforma de cartão de visita digital profissional, moderna e altamente interativa construída com Next.js (App Router), Tailwind CSS e TypeScript. Desenvolvido para ser 100% configurável via variáveis de ambiente, ele oferece zero acoplamento de código, suporte a PWA, Web Share API, modo de impressão A4, extração dinâmica de cores e integração com Spotify.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Funcionalidades
 
-## Learn More
+- **Configuração Zero-Code:** Totalmente customizável via `.env.local` e modelos prontos na pasta `envs/`.
+- **Widgets Interativos:** Integração com o Spotify (música, álbum ou podcast) e contador de visitas locais (`localStorage`).
+- **Recursos de Compartilhamento:** Botões para Web Share API, QR Code dinâmico e visualização em grade pronta para impressão (A4 Print View).
+- **Design Adaptativo:** Suporte a temas claro/escuro e extração dinâmica de cores de destaque com base no avatar.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Configuração e Instalação
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/diogocorreadcs/dCard.git](https://github.com/diogocorreadcs/dCard.git)
+   cd dCard
